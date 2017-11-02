@@ -61,9 +61,9 @@
   
   if (submenu) {
     
-    NSMenu *moreMenu = [NSMenu.alloc initWithTitle:@"Bitbar Preferences"];
+    NSMenu *moreMenu = [NSMenu.alloc initWithTitle:@"Bitbar"];
 
-    moreItem = [NSMenuItem.alloc initWithTitle:@"Bitbar Preferences" action:nil keyEquivalent:@""];
+    moreItem = [NSMenuItem.alloc initWithTitle:@"Bitbar" action:nil keyEquivalent:@""];
     moreItem.submenu = moreMenu;
     [menu addItem:moreItem];
     targetMenu = moreMenu;
